@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypong"
+version = "1.0.0"
+description = "The Pong library for Python. Build terminal Pong games in minutes. Zero dependencies."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+keywords = [
+    "pong",
+    "game",
+    "terminal",
+    "console",
+    "library",
+    "framework",
+    "arcade",
+    "ping-pong",
+    "ascii-game",
+    "text-game",
+    "pure-python",
+    "no-dependencies",
+    "game-engine",
+    "retro"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment :: Arcade",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.scripts]
+pypong-demo = "pypong:demo"
+
+[project.urls]
+Homepage = "https://github.com/CheezeDeveloper/pypong"
